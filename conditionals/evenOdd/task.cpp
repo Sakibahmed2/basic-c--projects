@@ -5,12 +5,12 @@ int main()
 {
     int n;
     cin >> n;
-    if (n % 2 == 0)
+    if (n / 5)
     {
-        cout << "even number";
+        cout << "its divisible by 5";
     }
     else
     {
-        cout << "odd number";
+        cout << "its not divisible by 5";
     }
 }
